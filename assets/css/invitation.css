@@ -201,15 +201,22 @@ main { position: relative; z-index: 1; }
 
 .hero-names {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  gap: 1rem;
+  gap: 1.5rem;
   flex-wrap: wrap;
   margin-bottom: 1.25rem;
 }
 
+.hero-person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+
 .hero-name {
-  font-size: clamp(3rem, 10vw, 5.5rem);
+  font-size: clamp(2.4rem, 10vw, 5.5rem);
   font-weight: 300;
   line-height: 1.05;
   letter-spacing: -0.01em;
@@ -217,12 +224,13 @@ main { position: relative; z-index: 1; }
 }
 
 .hero-ampersand {
-  font-size: clamp(2rem, 6vw, 3.5rem);
+  font-size: clamp(1.6rem, 6vw, 3.5rem);
   color: var(--inv-gold);
   font-style: italic;
   font-weight: 300;
   line-height: 1;
   align-self: center;
+  margin-top: 0.5rem;
 }
 
 .hero-subtitle {
@@ -233,59 +241,34 @@ main { position: relative; z-index: 1; }
   font-weight: 300;
 }
 
-/* ── Hero Professions ── */
-.hero-professions {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1.25rem;
-  flex-wrap: wrap;
-  margin-top: 1.75rem;
-  padding: 1rem 1.5rem;
-  border-top: 1px solid var(--inv-border);
-  border-bottom: 1px solid var(--inv-border);
-  max-width: 480px;
-  width: 100%;
-}
-
+/* ── Hero Professions (shown below each name) ── */
 .hero-profession {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: clamp(0.78rem, 2vw, 0.9rem);
-  letter-spacing: 0.04em;
-}
-
-.profession-name {
-  font-weight: 500;
-  color: var(--inv-maroon);
-  font-style: normal;
-}
-
-.profession-sep {
-  color: var(--inv-gold-pale);
-  font-weight: 300;
-}
-
-.profession-title {
+  display: block;
+  font-size: clamp(0.72rem, 2.2vw, 0.9rem);
   font-style: italic;
   color: var(--inv-text-muted);
-  font-weight: 300;
-}
-
-.profession-divider {
-  color: var(--inv-gold);
-  font-size: 0.6rem;
-  opacity: 0.6;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
+  max-width: 220px;
+  line-height: 1.4;
 }
 
 @media (max-width: 480px) {
-  .hero-professions {
-    flex-direction: column;
-    gap: 0.6rem;
+  .section-hero {
+    padding: 3.5rem 1.25rem 3rem;
   }
-  .profession-divider { display: none; }
+  .hero-name {
+    font-size: clamp(2rem, 13vw, 2.75rem);
+  }
+  .hero-names {
+    flex-direction: column;
+    gap: 1.1rem;
+  }
+  .hero-ampersand {
+    margin-top: 0;
+  }
+  .hero-profession {
+    max-width: 260px;
+  }
 }
 
 /* ═══════════════════════════════════════════════

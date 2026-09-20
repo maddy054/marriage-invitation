@@ -47,7 +47,7 @@ const translations = {
 
   ta: {
     hero_eyebrow:       'இறைவன் அருளால்',
-    groom_name:         'அய்யாளு சாமி',
+    groom_name:         'அய்யலுசாமி',
     bride_name:         'ஜெயசுதா',
     hero_subtitle:      'திருமண வாழ்வில் இணைகின்றனர்',
 
