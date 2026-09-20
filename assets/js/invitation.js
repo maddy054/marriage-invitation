@@ -53,7 +53,7 @@ const translations = {
 
     families_label:     'குடும்பங்கள்',
     groom_side:         'மணமகன் குடும்பம்',
-    groom_father:       'திரு. பி. அய்யாளுசாமி',
+    groom_father:       'திரு. பி. அய்யலுசாமி',
     groom_father_rel:   'தந்தை',
     groom_mother:       'திருமதி. அ. ஜீவராணி',
     groom_mother_rel:   'தாய்',
