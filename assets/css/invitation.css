@@ -318,6 +318,25 @@ main { position: relative; z-index: 1; }
   }
 }
 
+/* Web: let each card size to its content so parent names never wrap/cut */
+@media (min-width: 601px) {
+  .section-families {
+    max-width: none;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .families-grid {
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+  }
+
+  .family-name {
+    white-space: nowrap;
+  }
+}
+
 .family-card {
   background: rgba(255,255,255,0.55);
   border: 1px solid var(--inv-border);
