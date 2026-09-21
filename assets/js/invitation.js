@@ -57,14 +57,14 @@ const translations = {
     groom_father_rel:   'தந்தை',
     groom_mother:       'திருமதி. அ. ஜீவராணி',
     groom_mother_rel:   'தாய்',
-    groom_address:      'கூட்டுப்பன்னை',
+    groom_address:      'கூட்டுப்பண்ணை',
     groom_personal:     'B.E., மதர்சன் ரோபிஸ், சென்னை',
     bride_side:         'மணமகள் குடும்பம்',
     bride_father:       'திரு. கே. சுப்புராஜ்',
     bride_father_rel:   'தந்தை',
     bride_mother:       'திருமதி. எஸ். சுசீலா',
     bride_mother_rel:   'தாய்',
-    bride_address:      'குளத்துல்வைப்பட்டி',
+    bride_address:      'குளத்துள்வாய்பட்டி',
     bride_personal:     'B.E.',
 
     ceremony_label:     'திருமண நிகழ்வு',
@@ -82,7 +82,7 @@ const translations = {
     directions_sub:     'உங்கள் வருகையை மனமார வேண்டுகிறோம்',
     directions_btn:     'வழிகாட்டி பெறுக',
 
-    closing_message:    'திரு. பி. அய்யாளுசாமி &amp; திருமதி. அ. ஜீவராணி, கூட்டுப்பன்னை<br>மற்றும் திரு. கே. சுப்புராஜ் &amp; திருமதி. எஸ். சுசீலா, குளத்துல்வைப்பட்டி<br>ஆகியோர் உங்களை அன்புடன் அழைக்கின்றனர்.',
+    closing_message:    'திரு. பி. அய்யாளுசாமி &amp; திருமதி. அ. ஜீவராணி, கூட்டுப்பண்ணை<br>மற்றும் திரு. கே. சுப்புராஜ் &amp; திருமதி. எஸ். சுசீலா, குளத்துள்வாய்பட்டி<br>ஆகியோர் உங்களை அன்புடன் அழைக்கின்றனர்.',
     closing_compliments:'சுப மங்கள வாழ்த்துக்கள்: உறவினர்கள் &amp; நண்பர்கள்',
     closing_tamil_verse:'வாழ்க வளமுடன் — நீங்கள் வளமுடன் வாழட்டும்',
   }
