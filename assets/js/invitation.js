@@ -194,14 +194,5 @@ if (prefersReducedMotion) {
   requestAnimationFrame(() => requestAnimationFrame(revealInViewport));
 }
 
-/* ── OM Badge dismiss ── */
-const badgeWrap  = document.getElementById('om-badge-wrap');
-const badgeClose = document.getElementById('om-badge-close');
-if (badgeClose && badgeWrap) {
-  badgeClose.addEventListener('click', () => {
-    badgeWrap.classList.add('om-badge-hidden');
-  });
-}
-
 /* ── Init: apply saved language on load ── */
 applyLanguage(currentLang, false);
